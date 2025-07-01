@@ -1,0 +1,112 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartIdLocal
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import CoreLocation
+import CoreTelephony
+import Darwin
+import Foundation
+import KeychainAccess
+import Security
+@_exported import SmartIdLocal
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct BankAccount : Swift.Codable {
+  public let account: Swift.String
+  public let bank: Swift.String
+  public let currency: Swift.String
+  public init(account: Swift.String, bank: Swift.String, currency: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CoreOperation : Swift.Codable {
+  public let channelId: Swift.String
+  public var device: SmartIdLocal.Device?
+  public let transaction: SmartIdLocal.Transaction?
+  public var account: SmartIdLocal.Account?
+  public let accountTo: SmartIdLocal.Account?
+  public let debitFrom: SmartIdLocal.BankAccount?
+  public let creditTo: SmartIdLocal.BankAccount?
+  public let creditCard: SmartIdLocal.CreditCard?
+  public let order: SmartIdLocal.Order?
+  public let timestamp: Swift.String?
+  public init(channelId: Swift.String, device: SmartIdLocal.Device? = nil, transaction: SmartIdLocal.Transaction? = nil, account: SmartIdLocal.Account? = nil, accountTo: SmartIdLocal.Account? = nil, debitFrom: SmartIdLocal.BankAccount? = nil, creditTo: SmartIdLocal.BankAccount? = nil, creditCard: SmartIdLocal.CreditCard? = nil, order: SmartIdLocal.Order? = nil, timestamp: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Transaction : Swift.Codable {
+  public let category: Swift.String
+  public let type: Swift.String
+  public let description: Swift.String
+  public let reference: Swift.String
+  public let date: Swift.String?
+  public let details: [Swift.String : Swift.String]
+  public init(category: Swift.String, type: Swift.String, description: Swift.String, reference: Swift.String, date: Swift.String? = nil, details: [Swift.String : Swift.String])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Account : Swift.Codable {
+  public var client: Swift.String
+  public let clientRefId: Swift.Int
+  public let clientRefIdStr: Swift.String
+  public let email: Swift.String
+  public let phoneNumber: Swift.String
+  public let session: Swift.String
+  public let accountNumber: Swift.String
+  public let bank: Swift.String
+  public init(client: Swift.String, clientRefId: Swift.Int, clientRefIdStr: Swift.String, email: Swift.String, phoneNumber: Swift.String, session: Swift.String, accountNumber: Swift.String, bank: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public typealias Padding = Security.SecPadding
+@_hasMissingDesignatedInitializers final public class SID {
+  public static let shared: SmartIdLocal.SID
+  public static func startLocation()
+  public static func setSSLData(_ data: Swift.String)
+  final public func getDevice() -> Swift.String?
+  final public func getSmartId() -> Swift.String
+  final public func getDeviceData(isProduction: Swift.Bool) -> SmartIdLocal.DeviceDataResponse
+  final public func getRawData(applicationBackendDomain: Swift.String? = "") -> SmartIdLocal.RawDataResponse
+  @objc deinit
+}
+public struct Device : Swift.Codable {
+  public let smartId: Swift.String
+  public let ipAddress: Swift.String?
+  public let userAgent: Swift.String?
+  public init(smartId: Swift.String, ipAddress: Swift.String? = nil, userAgent: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class DeviceDataResponse {
+  public func setTimeout(timeout: Swift.Int) -> SmartIdLocal.DeviceDataResponse
+  public func onSuccess(success: @escaping (Swift.Int, Swift.String, Swift.Bool) -> Swift.Void) -> SmartIdLocal.DeviceDataResponse
+  public func onFailure(failure: @escaping (Swift.Int, Swift.String, Swift.String) -> Swift.Void) -> SmartIdLocal.DeviceDataResponse
+  public func start()
+  @objc deinit
+}
+public struct CreditCard : Swift.Codable {
+  public let bin: Swift.String
+  public let hash: Swift.String
+  public let last4Digits: Swift.String
+  public let token: Swift.String
+  public init(bin: Swift.String, hash: Swift.String, last4Digits: Swift.String, token: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Order : Swift.Codable {
+  public let amount: Foundation.Decimal
+  public let currency: Swift.String
+  public init(amount: Foundation.Decimal, currency: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public func MD5(_ input: Swift.String) -> Swift.String
+@_hasMissingDesignatedInitializers public class RawDataResponse {
+  public func onSuccess(success: @escaping (Swift.Int, Swift.String) -> Swift.Void) -> SmartIdLocal.RawDataResponse
+  public func onFailure(failure: @escaping (Swift.Int, Swift.String, Swift.String) -> Swift.Void) -> SmartIdLocal.RawDataResponse
+  public func start()
+  @objc deinit
+}

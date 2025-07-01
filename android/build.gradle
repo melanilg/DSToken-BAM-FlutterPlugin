@@ -1,0 +1,65 @@
+buildscript {
+    ext.kotlin_version = '1.7.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://mymavenrepo.com/repo/dP7sgBHSDgaGKRFCXyOi/'
+            credentials
+                    {
+                        username 'devops'
+                        password 'GtzffDlc6lHSN3s9'
+                    }
+        }
+//        flatDir {
+//            dirs project(':DSTokenBam').file('libs')
+//        }
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    namespace 'com.develsystems.DSTokenBam'
+    compileSdk = 34
+
+    defaultConfig {
+        minSdk = 16
+        targetSdk = 34
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    lint {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.develsystems:smartid:5.0.3'
+    //implementation(name:'smartid', ext:'aar')
+}

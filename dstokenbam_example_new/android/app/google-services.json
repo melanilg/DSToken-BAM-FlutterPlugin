@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836885596955",
+    "project_id": "dstoken-bam-flutterplugin",
+    "storage_bucket": "dstoken-bam-flutterplugin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836885596955:android:8314b49592cdd4371761be",
+        "android_client_info": {
+          "package_name": "com.example.dstokenbam_example_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt6_-xPzlxFdxO-mZC36tqVxpXKYgtq2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

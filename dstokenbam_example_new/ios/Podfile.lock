@@ -1,0 +1,63 @@
+PODS:
+  - device_info_plus (0.0.1):
+    - Flutter
+  - DSTokenBam (1.0.0):
+    - Flutter
+    - KeychainAccess (= 4.2.2)
+    - SwiftBase32 (~> 0.9.0)
+  - Flutter (1.0.0)
+  - KeychainAccess (4.2.2)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - smart_id (0.0.1):
+    - Flutter
+    - SmartId (= 5.0.5)
+  - SmartId (5.0.5)
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+  - SwiftBase32 (0.9.0)
+
+DEPENDENCIES:
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - DSTokenBam (from `.symlinks/plugins/DSTokenBam/ios`)
+  - Flutter (from `Flutter`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - smart_id (from `.symlinks/plugins/smart_id/ios`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - KeychainAccess
+    - SmartId
+    - SwiftBase32
+
+EXTERNAL SOURCES:
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  DSTokenBam:
+    :path: ".symlinks/plugins/DSTokenBam/ios"
+  Flutter:
+    :path: Flutter
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  smart_id:
+    :path: ".symlinks/plugins/smart_id/ios"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+
+SPEC CHECKSUMS:
+  device_info_plus: bf2e3232933866d73fe290f2942f2156cdd10342
+  DSTokenBam: 62d4fdbbb892a8f09a88a54339c1c6c95310b779
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  smart_id: 95fff6e17ce89adbd136e301de20e086230bf643
+  SmartId: f77b00cfc57b249288eb818fce8b17b45bbe2fc2
+  sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
+  SwiftBase32: 9399c25a80666dc66b51e10076bf591e3bbb8f17
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2

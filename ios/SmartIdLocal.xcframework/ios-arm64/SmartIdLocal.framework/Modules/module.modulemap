@@ -1,0 +1,11 @@
+framework module SmartIdLocal {
+  umbrella header "SmartIdLocal.h"
+  export *
+
+  module * { export * }
+}
+
+module SmartIdLocal.Swift {
+  header "SmartIdLocal-Swift.h"
+  requires objc
+}

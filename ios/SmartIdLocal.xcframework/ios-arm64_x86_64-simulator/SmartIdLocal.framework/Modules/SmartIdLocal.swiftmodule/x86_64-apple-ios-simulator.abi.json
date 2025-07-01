@@ -1,0 +1,5048 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SmartIdLocal",
+    "printedName": "SmartIdLocal",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BankAccount",
+        "printedName": "BankAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11BankAccountV7accountSSvp",
+            "mangledName": "$s12SmartIdLocal11BankAccountV7accountSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11BankAccountV7accountSSvg",
+                "mangledName": "$s12SmartIdLocal11BankAccountV7accountSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bank",
+            "printedName": "bank",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11BankAccountV4bankSSvp",
+            "mangledName": "$s12SmartIdLocal11BankAccountV4bankSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11BankAccountV4bankSSvg",
+                "mangledName": "$s12SmartIdLocal11BankAccountV4bankSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11BankAccountV8currencySSvp",
+            "mangledName": "$s12SmartIdLocal11BankAccountV8currencySSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11BankAccountV8currencySSvg",
+                "mangledName": "$s12SmartIdLocal11BankAccountV8currencySSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(account:bank:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccount",
+                "printedName": "SmartIdLocal.BankAccount",
+                "usr": "s:12SmartIdLocal11BankAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal11BankAccountV7account4bank8currencyACSS_S2Stcfc",
+            "mangledName": "$s12SmartIdLocal11BankAccountV7account4bank8currencyACSS_S2Stcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccount",
+                "printedName": "SmartIdLocal.BankAccount",
+                "usr": "s:12SmartIdLocal11BankAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal11BankAccountV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal11BankAccountV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal11BankAccountV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal11BankAccountV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal11BankAccountV",
+        "mangledName": "$s12SmartIdLocal11BankAccountV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreOperation",
+        "printedName": "CoreOperation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "channelId",
+            "printedName": "channelId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV07channelB0SSvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV07channelB0SSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV07channelB0SSvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV07channelB0SSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device",
+            "printedName": "device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Device?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "SmartIdLocal.Device",
+                    "usr": "s:12SmartIdLocal6DeviceV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Device?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Device",
+                        "printedName": "SmartIdLocal.Device",
+                        "usr": "s:12SmartIdLocal6DeviceV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Device?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Device",
+                        "printedName": "SmartIdLocal.Device",
+                        "usr": "s:12SmartIdLocal6DeviceV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvs",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvs",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvM",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV6deviceAA6DeviceVSgvM",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transaction",
+            "printedName": "transaction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Transaction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transaction",
+                    "printedName": "SmartIdLocal.Transaction",
+                    "usr": "s:12SmartIdLocal11TransactionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV11transactionAA11TransactionVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV11transactionAA11TransactionVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Transaction?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Transaction",
+                        "printedName": "SmartIdLocal.Transaction",
+                        "usr": "s:12SmartIdLocal11TransactionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV11transactionAA11TransactionVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV11transactionAA11TransactionVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Account?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Account",
+                    "printedName": "SmartIdLocal.Account",
+                    "usr": "s:12SmartIdLocal7AccountV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Account?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Account",
+                        "printedName": "SmartIdLocal.Account",
+                        "usr": "s:12SmartIdLocal7AccountV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Account?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Account",
+                        "printedName": "SmartIdLocal.Account",
+                        "usr": "s:12SmartIdLocal7AccountV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvs",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvs",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvM",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV7accountAA7AccountVSgvM",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountTo",
+            "printedName": "accountTo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Account?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Account",
+                    "printedName": "SmartIdLocal.Account",
+                    "usr": "s:12SmartIdLocal7AccountV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV9accountToAA7AccountVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV9accountToAA7AccountVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Account?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Account",
+                        "printedName": "SmartIdLocal.Account",
+                        "usr": "s:12SmartIdLocal7AccountV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV9accountToAA7AccountVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV9accountToAA7AccountVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debitFrom",
+            "printedName": "debitFrom",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.BankAccount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccount",
+                    "printedName": "SmartIdLocal.BankAccount",
+                    "usr": "s:12SmartIdLocal11BankAccountV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV9debitFromAA11BankAccountVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV9debitFromAA11BankAccountVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.BankAccount?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BankAccount",
+                        "printedName": "SmartIdLocal.BankAccount",
+                        "usr": "s:12SmartIdLocal11BankAccountV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV9debitFromAA11BankAccountVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV9debitFromAA11BankAccountVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creditTo",
+            "printedName": "creditTo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.BankAccount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccount",
+                    "printedName": "SmartIdLocal.BankAccount",
+                    "usr": "s:12SmartIdLocal11BankAccountV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV8creditToAA11BankAccountVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV8creditToAA11BankAccountVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.BankAccount?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BankAccount",
+                        "printedName": "SmartIdLocal.BankAccount",
+                        "usr": "s:12SmartIdLocal11BankAccountV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV8creditToAA11BankAccountVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV8creditToAA11BankAccountVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creditCard",
+            "printedName": "creditCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.CreditCard?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCard",
+                    "printedName": "SmartIdLocal.CreditCard",
+                    "usr": "s:12SmartIdLocal10CreditCardV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV10creditCardAA06CreditG0VSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV10creditCardAA06CreditG0VSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.CreditCard?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCard",
+                        "printedName": "SmartIdLocal.CreditCard",
+                        "usr": "s:12SmartIdLocal10CreditCardV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV10creditCardAA06CreditG0VSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV10creditCardAA06CreditG0VSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "order",
+            "printedName": "order",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Order?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Order",
+                    "printedName": "SmartIdLocal.Order",
+                    "usr": "s:12SmartIdLocal5OrderV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV5orderAA5OrderVSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV5orderAA5OrderVSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartIdLocal.Order?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Order",
+                        "printedName": "SmartIdLocal.Order",
+                        "usr": "s:12SmartIdLocal5OrderV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV5orderAA5OrderVSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV5orderAA5OrderVSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal13CoreOperationV9timestampSSSgvp",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV9timestampSSSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal13CoreOperationV9timestampSSSgvg",
+                "mangledName": "$s12SmartIdLocal13CoreOperationV9timestampSSSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(channelId:device:transaction:account:accountTo:debitFrom:creditTo:creditCard:order:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreOperation",
+                "printedName": "SmartIdLocal.CoreOperation",
+                "usr": "s:12SmartIdLocal13CoreOperationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Device?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "SmartIdLocal.Device",
+                    "usr": "s:12SmartIdLocal6DeviceV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Transaction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transaction",
+                    "printedName": "SmartIdLocal.Transaction",
+                    "usr": "s:12SmartIdLocal11TransactionV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Account?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Account",
+                    "printedName": "SmartIdLocal.Account",
+                    "usr": "s:12SmartIdLocal7AccountV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Account?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Account",
+                    "printedName": "SmartIdLocal.Account",
+                    "usr": "s:12SmartIdLocal7AccountV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.BankAccount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccount",
+                    "printedName": "SmartIdLocal.BankAccount",
+                    "usr": "s:12SmartIdLocal11BankAccountV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.BankAccount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccount",
+                    "printedName": "SmartIdLocal.BankAccount",
+                    "usr": "s:12SmartIdLocal11BankAccountV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.CreditCard?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCard",
+                    "printedName": "SmartIdLocal.CreditCard",
+                    "usr": "s:12SmartIdLocal10CreditCardV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartIdLocal.Order?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Order",
+                    "printedName": "SmartIdLocal.Order",
+                    "usr": "s:12SmartIdLocal5OrderV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal13CoreOperationV07channelB06device11transaction7account0I2To9debitFrom06creditJ00M4Card5order9timestampACSS_AA6DeviceVSgAA11TransactionVSgAA7AccountVSgAvA04BankS0VSgAyA06CreditN0VSgAA5OrderVSgSSSgtcfc",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV07channelB06device11transaction7account0I2To9debitFrom06creditJ00M4Card5order9timestampACSS_AA6DeviceVSgAA11TransactionVSgAA7AccountVSgAvA04BankS0VSgAyA06CreditN0VSgAA5OrderVSgSSSgtcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreOperation",
+                "printedName": "SmartIdLocal.CoreOperation",
+                "usr": "s:12SmartIdLocal13CoreOperationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal13CoreOperationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal13CoreOperationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal13CoreOperationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal13CoreOperationV",
+        "mangledName": "$s12SmartIdLocal13CoreOperationV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Transaction",
+        "printedName": "Transaction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV8categorySSvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV8categorySSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV8categorySSvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV8categorySSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV4typeSSvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV4typeSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV4typeSSvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV4typeSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV11descriptionSSvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV11descriptionSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV11descriptionSSvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV11descriptionSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV9referenceSSvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV9referenceSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV9referenceSSvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV9referenceSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV4dateSSSgvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV4dateSSSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV4dateSSSgvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV4dateSSSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal11TransactionV7detailsSDyS2SGvp",
+            "mangledName": "$s12SmartIdLocal11TransactionV7detailsSDyS2SGvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal11TransactionV7detailsSDyS2SGvg",
+                "mangledName": "$s12SmartIdLocal11TransactionV7detailsSDyS2SGvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(category:type:description:reference:date:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Transaction",
+                "printedName": "SmartIdLocal.Transaction",
+                "usr": "s:12SmartIdLocal11TransactionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal11TransactionV8category4type11description9reference4date7detailsACSS_S4SSgSDyS2SGtcfc",
+            "mangledName": "$s12SmartIdLocal11TransactionV8category4type11description9reference4date7detailsACSS_S4SSgSDyS2SGtcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Transaction",
+                "printedName": "SmartIdLocal.Transaction",
+                "usr": "s:12SmartIdLocal11TransactionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal11TransactionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal11TransactionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal11TransactionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal11TransactionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal11TransactionV",
+        "mangledName": "$s12SmartIdLocal11TransactionV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Account",
+        "printedName": "Account",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "client",
+            "printedName": "client",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV6clientSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV6clientSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV6clientSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV6clientSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV6clientSSvs",
+                "mangledName": "$s12SmartIdLocal7AccountV6clientSSvs",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV6clientSSvM",
+                "mangledName": "$s12SmartIdLocal7AccountV6clientSSvM",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientRefId",
+            "printedName": "clientRefId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV09clientRefB0Sivp",
+            "mangledName": "$s12SmartIdLocal7AccountV09clientRefB0Sivp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV09clientRefB0Sivg",
+                "mangledName": "$s12SmartIdLocal7AccountV09clientRefB0Sivg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientRefIdStr",
+            "printedName": "clientRefIdStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV09clientRefB3StrSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV09clientRefB3StrSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV09clientRefB3StrSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV09clientRefB3StrSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV5emailSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV5emailSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV5emailSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV5emailSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV11phoneNumberSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV11phoneNumberSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV11phoneNumberSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV11phoneNumberSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "session",
+            "printedName": "session",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV7sessionSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV7sessionSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV7sessionSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV7sessionSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountNumber",
+            "printedName": "accountNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV13accountNumberSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV13accountNumberSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV13accountNumberSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV13accountNumberSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bank",
+            "printedName": "bank",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal7AccountV4bankSSvp",
+            "mangledName": "$s12SmartIdLocal7AccountV4bankSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal7AccountV4bankSSvg",
+                "mangledName": "$s12SmartIdLocal7AccountV4bankSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(client:clientRefId:clientRefIdStr:email:phoneNumber:session:accountNumber:bank:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Account",
+                "printedName": "SmartIdLocal.Account",
+                "usr": "s:12SmartIdLocal7AccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal7AccountV6client0e3RefB00efB3Str5email11phoneNumber7session07accountJ04bankACSS_SiS6Stcfc",
+            "mangledName": "$s12SmartIdLocal7AccountV6client0e3RefB00efB3Str5email11phoneNumber7session07accountJ04bankACSS_SiS6Stcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Account",
+                "printedName": "SmartIdLocal.Account",
+                "usr": "s:12SmartIdLocal7AccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal7AccountV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal7AccountV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal7AccountV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal7AccountV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal7AccountV",
+        "mangledName": "$s12SmartIdLocal7AccountV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SID",
+        "printedName": "SID",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SID",
+                "printedName": "SmartIdLocal.SID",
+                "usr": "s:12SmartIdLocal3SIDC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal3SIDC6sharedACvpZ",
+            "mangledName": "$s12SmartIdLocal3SIDC6sharedACvpZ",
+            "moduleName": "SmartIdLocal",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SID",
+                    "printedName": "SmartIdLocal.SID",
+                    "usr": "s:12SmartIdLocal3SIDC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal3SIDC6sharedACvgZ",
+                "mangledName": "$s12SmartIdLocal3SIDC6sharedACvgZ",
+                "moduleName": "SmartIdLocal",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startLocation",
+            "printedName": "startLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC13startLocationyyFZ",
+            "mangledName": "$s12SmartIdLocal3SIDC13startLocationyyFZ",
+            "moduleName": "SmartIdLocal",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSSLData",
+            "printedName": "setSSLData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC10setSSLDatayySSFZ",
+            "mangledName": "$s12SmartIdLocal3SIDC10setSSLDatayySSFZ",
+            "moduleName": "SmartIdLocal",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDevice",
+            "printedName": "getDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC9getDeviceSSSgyF",
+            "mangledName": "$s12SmartIdLocal3SIDC9getDeviceSSSgyF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSmartId",
+            "printedName": "getSmartId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC03getaB0SSyF",
+            "mangledName": "$s12SmartIdLocal3SIDC03getaB0SSyF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceData",
+            "printedName": "getDeviceData(isProduction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataResponse",
+                "printedName": "SmartIdLocal.DeviceDataResponse",
+                "usr": "s:12SmartIdLocal18DeviceDataResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC13getDeviceData12isProductionAA0fG8ResponseCSb_tF",
+            "mangledName": "$s12SmartIdLocal3SIDC13getDeviceData12isProductionAA0fG8ResponseCSb_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRawData",
+            "printedName": "getRawData(applicationBackendDomain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RawDataResponse",
+                "printedName": "SmartIdLocal.RawDataResponse",
+                "usr": "s:12SmartIdLocal15RawDataResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal3SIDC10getRawData24applicationBackendDomainAA0fG8ResponseCSSSg_tF",
+            "mangledName": "$s12SmartIdLocal3SIDC10getRawData24applicationBackendDomainAA0fG8ResponseCSSSg_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12SmartIdLocal3SIDC",
+        "mangledName": "$s12SmartIdLocal3SIDC",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Device",
+        "printedName": "Device",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "smartId",
+            "printedName": "smartId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal6DeviceV05smartB0SSvp",
+            "mangledName": "$s12SmartIdLocal6DeviceV05smartB0SSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal6DeviceV05smartB0SSvg",
+                "mangledName": "$s12SmartIdLocal6DeviceV05smartB0SSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ipAddress",
+            "printedName": "ipAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal6DeviceV9ipAddressSSSgvp",
+            "mangledName": "$s12SmartIdLocal6DeviceV9ipAddressSSSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal6DeviceV9ipAddressSSSgvg",
+                "mangledName": "$s12SmartIdLocal6DeviceV9ipAddressSSSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userAgent",
+            "printedName": "userAgent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal6DeviceV9userAgentSSSgvp",
+            "mangledName": "$s12SmartIdLocal6DeviceV9userAgentSSSgvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal6DeviceV9userAgentSSSgvg",
+                "mangledName": "$s12SmartIdLocal6DeviceV9userAgentSSSgvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(smartId:ipAddress:userAgent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Device",
+                "printedName": "SmartIdLocal.Device",
+                "usr": "s:12SmartIdLocal6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal6DeviceV05smartB09ipAddress9userAgentACSS_SSSgAGtcfc",
+            "mangledName": "$s12SmartIdLocal6DeviceV05smartB09ipAddress9userAgentACSS_SSSgAGtcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Device",
+                "printedName": "SmartIdLocal.Device",
+                "usr": "s:12SmartIdLocal6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal6DeviceV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal6DeviceV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal6DeviceV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal6DeviceV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal6DeviceV",
+        "mangledName": "$s12SmartIdLocal6DeviceV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KeychainAccess",
+        "printedName": "KeychainAccess",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceDataResponse",
+        "printedName": "DeviceDataResponse",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setTimeout",
+            "printedName": "setTimeout(timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataResponse",
+                "printedName": "SmartIdLocal.DeviceDataResponse",
+                "usr": "s:12SmartIdLocal18DeviceDataResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal18DeviceDataResponseC10setTimeout7timeoutACSi_tF",
+            "mangledName": "$s12SmartIdLocal18DeviceDataResponseC10setTimeout7timeoutACSi_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataResponse",
+                "printedName": "SmartIdLocal.DeviceDataResponse",
+                "usr": "s:12SmartIdLocal18DeviceDataResponseC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String, Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String, Swift.Bool)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal18DeviceDataResponseC9onSuccess7successACySi_SSSbtc_tF",
+            "mangledName": "$s12SmartIdLocal18DeviceDataResponseC9onSuccess7successACySi_SSSbtc_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailure",
+            "printedName": "onFailure(failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataResponse",
+                "printedName": "SmartIdLocal.DeviceDataResponse",
+                "usr": "s:12SmartIdLocal18DeviceDataResponseC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal18DeviceDataResponseC9onFailure7failureACySi_S2Stc_tF",
+            "mangledName": "$s12SmartIdLocal18DeviceDataResponseC9onFailure7failureACySi_S2Stc_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal18DeviceDataResponseC5startyyF",
+            "mangledName": "$s12SmartIdLocal18DeviceDataResponseC5startyyF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12SmartIdLocal18DeviceDataResponseC",
+        "mangledName": "$s12SmartIdLocal18DeviceDataResponseC",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CreditCard",
+        "printedName": "CreditCard",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bin",
+            "printedName": "bin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal10CreditCardV3binSSvp",
+            "mangledName": "$s12SmartIdLocal10CreditCardV3binSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal10CreditCardV3binSSvg",
+                "mangledName": "$s12SmartIdLocal10CreditCardV3binSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hash",
+            "printedName": "hash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal10CreditCardV4hashSSvp",
+            "mangledName": "$s12SmartIdLocal10CreditCardV4hashSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal10CreditCardV4hashSSvg",
+                "mangledName": "$s12SmartIdLocal10CreditCardV4hashSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last4Digits",
+            "printedName": "last4Digits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal10CreditCardV11last4DigitsSSvp",
+            "mangledName": "$s12SmartIdLocal10CreditCardV11last4DigitsSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal10CreditCardV11last4DigitsSSvg",
+                "mangledName": "$s12SmartIdLocal10CreditCardV11last4DigitsSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal10CreditCardV5tokenSSvp",
+            "mangledName": "$s12SmartIdLocal10CreditCardV5tokenSSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal10CreditCardV5tokenSSvg",
+                "mangledName": "$s12SmartIdLocal10CreditCardV5tokenSSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bin:hash:last4Digits:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CreditCard",
+                "printedName": "SmartIdLocal.CreditCard",
+                "usr": "s:12SmartIdLocal10CreditCardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal10CreditCardV3bin4hash11last4Digits5tokenACSS_S3Stcfc",
+            "mangledName": "$s12SmartIdLocal10CreditCardV3bin4hash11last4Digits5tokenACSS_S3Stcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CreditCard",
+                "printedName": "SmartIdLocal.CreditCard",
+                "usr": "s:12SmartIdLocal10CreditCardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal10CreditCardV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal10CreditCardV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal10CreditCardV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal10CreditCardV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal10CreditCardV",
+        "mangledName": "$s12SmartIdLocal10CreditCardV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Order",
+        "printedName": "Order",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal5OrderV6amountSo9NSDecimalavp",
+            "mangledName": "$s12SmartIdLocal5OrderV6amountSo9NSDecimalavp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal5OrderV6amountSo9NSDecimalavg",
+                "mangledName": "$s12SmartIdLocal5OrderV6amountSo9NSDecimalavg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SmartIdLocal5OrderV8currencySSvp",
+            "mangledName": "$s12SmartIdLocal5OrderV8currencySSvp",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SmartIdLocal5OrderV8currencySSvg",
+                "mangledName": "$s12SmartIdLocal5OrderV8currencySSvg",
+                "moduleName": "SmartIdLocal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Order",
+                "printedName": "SmartIdLocal.Order",
+                "usr": "s:12SmartIdLocal5OrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal5OrderV6amount8currencyACSo9NSDecimala_SStcfc",
+            "mangledName": "$s12SmartIdLocal5OrderV6amount8currencyACSo9NSDecimala_SStcfc",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Order",
+                "printedName": "SmartIdLocal.Order",
+                "usr": "s:12SmartIdLocal5OrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SmartIdLocal5OrderV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12SmartIdLocal5OrderV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal5OrderV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12SmartIdLocal5OrderV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartIdLocal",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SmartIdLocal5OrderV",
+        "mangledName": "$s12SmartIdLocal5OrderV",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "MD5",
+        "printedName": "MD5(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12SmartIdLocal3MD5yS2SF",
+        "mangledName": "$s12SmartIdLocal3MD5yS2SF",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RawDataResponse",
+        "printedName": "RawDataResponse",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RawDataResponse",
+                "printedName": "SmartIdLocal.RawDataResponse",
+                "usr": "s:12SmartIdLocal15RawDataResponseC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal15RawDataResponseC9onSuccess7successACySi_SStc_tF",
+            "mangledName": "$s12SmartIdLocal15RawDataResponseC9onSuccess7successACySi_SStc_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailure",
+            "printedName": "onFailure(failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RawDataResponse",
+                "printedName": "SmartIdLocal.RawDataResponse",
+                "usr": "s:12SmartIdLocal15RawDataResponseC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal15RawDataResponseC9onFailure7failureACySi_S2Stc_tF",
+            "mangledName": "$s12SmartIdLocal15RawDataResponseC9onFailure7failureACySi_S2Stc_tF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SmartIdLocal15RawDataResponseC5startyyF",
+            "mangledName": "$s12SmartIdLocal15RawDataResponseC5startyyF",
+            "moduleName": "SmartIdLocal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12SmartIdLocal15RawDataResponseC",
+        "mangledName": "$s12SmartIdLocal15RawDataResponseC",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartIdLocal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SecurePaymentController.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 10,
+      "value": "\"\/payment\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SecurePaymentController.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SecurePaymentController.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SecurePaymentController.swift",
+      "kind": "StringLiteral",
+      "offset": 3034,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 16,
+      "value": "\"Content-Length\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdNetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartCoreRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 14,
+      "value": "\"\/v2\/sid\/core\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdController.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdController.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/SmartIdController.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Service\/UserPreferencesService.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 14,
+      "value": "\"isProduction\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/SwiftyRSA.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/UnlinkRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 9,
+      "value": "\"\/unlink\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/SmartId.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Service\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 40,
+      "value": "\"udid_\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Service\/KeychainService.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 981,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 12,
+      "value": "\"SmartPhone\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1630,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1662,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1757,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1951,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2029,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2070,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2107,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceDataResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2349,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/SdkConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 7,
+      "value": "\"5.0.1\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 14,
+      "value": "\"isProduction\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 45,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 1,
+      "value": "\"\/s\/app\/api\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 49,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 1,
+      "value": "\"\/s\/app\/api-dev\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 14,
+      "value": "\"isProduction\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 1,
+      "value": "\"\/api\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/RemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 1,
+      "value": "\"\/api-dev\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 8,
+      "value": "\"device\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "\"ssl\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 9,
+      "value": "\"address\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 4,
+      "value": "\"is\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 11,
+      "value": "\"interface\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 9,
+      "value": "\"carrier\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 14,
+      "value": "\"isJailBroken\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 10,
+      "value": "\"hashUUID\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 13,
+      "value": "\"geoLocation\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 10,
+      "value": "\"security\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 17,
+      "value": "\"isSharingScreen\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1084,
+      "length": 23,
+      "value": "\"isTeamViewerInstalled\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 20,
+      "value": "\"isAnyDeskInstalled\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 25,
+      "value": "\"isMultitaskingSupported\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 12,
+      "value": "\"systemName\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 15,
+      "value": "\"systemVersion\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 16,
+      "value": "\"localizedModel\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 10,
+      "value": "\"rawModel\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1653,
+      "length": 6,
+      "value": "\"UUID\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 18,
+      "value": "\"isDeviceFaceDown\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
+      "length": 14,
+      "value": "\"batteryLevel\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1804,
+      "length": 14,
+      "value": "\"batteryState\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 30,
+      "value": "\"isProximityMonitoringEnabled\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 16,
+      "value": "\"proximityState\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2032,
+      "length": 14,
+      "value": "\"versionBuild\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2143,
+      "length": 15,
+      "value": "\"interfaceName\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 8,
+      "value": "\"family\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2226,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2262,
+      "length": 8,
+      "value": "\"public\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 7,
+      "value": "\"local\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2426,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2504,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 12,
+      "value": "\"allowsVoIP\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 9,
+      "value": "\"proxied\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 5,
+      "value": "\"tor\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 4,
+      "value": "\"is\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 16,
+      "value": "\"inTwoTimezones\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 8,
+      "value": "\"region\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2896,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 6,
+      "value": "\"city\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 2973,
+      "length": 8,
+      "value": "\"postal\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3016,
+      "length": 11,
+      "value": "\"continent\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 10,
+      "value": "\"timezone\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3099,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3140,
+      "length": 13,
+      "value": "\"coordinates\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3193,
+      "length": 16,
+      "value": "\"ISOCountryCode\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3286,
+      "length": 10,
+      "value": "\"remoteIP\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/DeviceInfoController.swift",
+      "kind": "StringLiteral",
+      "offset": 3331,
+      "length": 14,
+      "value": "\"certificates\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/LinkRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 7,
+      "value": "\"\/link\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftHash\/MD5.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8947,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/Asn1Parser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 11,
+      "value": "\"\/tracking\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 1959,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Remote\/TrackRemoteController.swift",
+      "kind": "StringLiteral",
+      "offset": 1979,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/PublicKey.swift",
+      "kind": "StringLiteral",
+      "offset": 2213,
+      "length": 57,
+      "value": "\"(-----BEGIN PUBLIC KEY-----.+?-----END PUBLIC KEY-----)\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/NetUtils\/Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 729,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/NetUtils\/Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/RawDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/Controller\/RawDataResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7651,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7671,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7691,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/develsystems\/Proyectos\/SmartId\/iOS\/DSAnalytics.iOSSDK\/DSAnalytics.iOSSDK\/SmartIdLocal\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7711,
+      "length": 6,
+      "value": "4"
+    }
+  ]
+}
